@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atelier Tempus — Mechanical Reverie</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <p class="eyebrow">Haute Horlogerie Narrative</p>
+      <h1>Mechanical Reverie</h1>
+      <p class="lede">
+        Scroll through the anatomy of a handcrafted movement. Every component glides into place to reveal a modern interpretation of a Swiss classic.
+      </p>
+      <p class="hint">Scroll to assemble the watch</p>
+    </header>
+
+    <main class="experience" id="experience">
+      <aside class="watch-stage" aria-hidden="true">
+        <div class="watch-shell"></div>
+        <img class="piece" data-piece="0" src="assets/piece-mainplate.svg" alt="" />
+        <img class="piece" data-piece="1" src="assets/piece-barrel.svg" alt="" />
+        <img class="piece" data-piece="2" src="assets/piece-gear-train.svg" alt="" />
+        <img class="piece" data-piece="3" src="assets/piece-escapement.svg" alt="" />
+        <img class="piece" data-piece="4" src="assets/piece-hands.svg" alt="" />
+        <img class="piece" data-piece="5" src="assets/piece-crystal.svg" alt="" />
+      </aside>
+
+      <section class="chapter" data-index="0">
+        <article class="card left">
+          <h2>Mainplate</h2>
+          <p>
+            The foundation is milled from rhodium-coated brass, then brushed by hand to produce a satin bed that catches low-angle light. It anchors every jewel and bridge with micron-level discipline.
+          </p>
+        </article>
+      </section>
+
+      <section class="chapter" data-index="1">
+        <article class="card right">
+          <h2>Barrel & Mainspring</h2>
+          <p>
+            The barrel stores the watch’s pulse. Our blued spring unwinds with consistent force, allowing a long reserve while preserving torque stability from first hour to last.
+          </p>
+        </article>
+      </section>
+
+      <section class="chapter" data-index="2">
+        <article class="card left">
+          <h2>Gear Train</h2>
+          <p>
+            Skeletonized wheels with polished spokes transfer energy across jeweled pivots. Every tooth profile is tuned for low friction, creating the signature smooth sweep associated with fine movements.
+          </p>
+        </article>
+      </section>
+
+      <section class="chapter" data-index="3">
+        <article class="card right">
+          <h2>Escapement</h2>
+          <p>
+            The lever escapement regulates time in precise beats. Angled pallets and a high-inertia balance maintain rhythm even through motion, delivering chronometric confidence.
+          </p>
+        </article>
+      </section>
+
+      <section class="chapter" data-index="4">
+        <article class="card left">
+          <h2>Hands & Dial Ring</h2>
+          <p>
+            Dauphine hands are diamond-cut and heat-blued, floating above a minimalist chapter ring. The visual language is traditional, yet stripped to modern clarity.
+          </p>
+        </article>
+      </section>
+
+      <section class="chapter" data-index="5">
+        <article class="card right">
+          <h2>Sapphire Crystal</h2>
+          <p>
+            A boxed sapphire crystal seals the composition with anti-reflective treatment on both faces. The movement now appears suspended, complete, and quietly dramatic.
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Atelier Tempus · Geneva · Since 1897</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
